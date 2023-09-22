@@ -17,6 +17,7 @@ p {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -43,4 +44,15 @@ section {
 .top-banner {
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("/images/rectangle-frame-abstract-background-vector_53876-109065.jpg");
     background-repeat: round;
+}
+
+.dream-big {
+    background-image: linear-gradient(rgb(245, 255, 255, 0), rgb(255, 255, 0)), url("/images/painting-jungle-scene-with-green-plant-green-leafy-plant_1340-31601.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+}
+
+.dream-big p {
+    color: white;
 }
