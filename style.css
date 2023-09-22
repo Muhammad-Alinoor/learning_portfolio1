@@ -15,7 +15,7 @@ p {
     color: rgb(56, 53, 53);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -55,4 +55,30 @@ section {
 
 .dream-big p {
     color: white;
+}
+
+.experience-area .half-width {
+    box-shadow: 2px 4px 25px 8px teal;
+    width: 40%;
+    margin: 5%;
+    padding: 5%;
+
+}
+
+#full-stack-dev {
+    border-left: 15px solid black;
+    border-image-source: linear-gradient(to top, orange, tomato);
+    border-image-slice: 1;
+
+}
+
+#baby-dev {
+    border-left: 15px solid black;
+    border-image-source: linear-gradient(to top, blue, cyan);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
 }
